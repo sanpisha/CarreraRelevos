@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public class Color {
     private String nombre;
-    private Date termino;
+   
     private int posicion;
     private int posicionActualP1;
     private int posicionActualP2;
@@ -25,7 +25,7 @@ public class Color {
         this.posicionActualP1=0;
         this.posicionActualP2=33;
         this.posicionActualP3=66;
-        termino = null;
+        
     }
     /**
      * La clase mostrar posicion es el encargado de mostrar que figura  y en mostrar la posicion
@@ -137,22 +137,6 @@ public class Color {
 
     public void setPosicion(int posicion) {
         this.posicion = posicion;
-    }
-    /**
-    * metodo de  termino
-    * @return termino
-    */
-
-    public Date getTermino() {
-        return termino;
-    }
-    /**
-     * Metodo para asignar termino
-     * @param termino 
-     */
-
-    public void setTermino(Date termino) {
-        this.termino = termino;
     }
     
 }
