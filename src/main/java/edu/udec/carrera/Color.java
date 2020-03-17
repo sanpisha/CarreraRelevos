@@ -1,6 +1,6 @@
 package main.java.edu.udec.carrera;
 
-import java.util.Date;
+
 
 /**
  * Clase que establece las variables del color y donde se muestra en pantalla la posición de los competidores

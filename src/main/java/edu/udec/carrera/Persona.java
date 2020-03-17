@@ -114,13 +114,13 @@ public class Persona extends Thread {
      * pertenece el jugador
      */
     public void colorPerteneciente() {
-        if (color.mostrarPosicion().contains("Cyan")) {
-            cyan = color.mostrarPosicion();
-            System.out.println(cyan);
-
-        } else if (color.mostrarPosicion().contains("Azul")) {
+        if (color.mostrarPosicion().contains("Azul")) {
             azul = color.mostrarPosicion();
             System.out.println(azul);
+
+        } else if (color.mostrarPosicion().contains("Cyan")) {
+            cyan = color.mostrarPosicion();
+            System.out.println(cyan);
 
         } else if (color.mostrarPosicion().contains("Rojo")) {
             rojo = color.mostrarPosicion();
@@ -141,7 +141,7 @@ public class Persona extends Thread {
      */
     public int avanzar(int numCompetidos) {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(800);
         } catch (InterruptedException ex) {
             Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
         }
