@@ -141,7 +141,7 @@ public class Persona extends Thread {
      */
     public int avanzar(int numCompetidos) {
         try {
-            Thread.sleep(800);
+            Thread.sleep(500);
         } catch (InterruptedException ex) {
             Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
         }
