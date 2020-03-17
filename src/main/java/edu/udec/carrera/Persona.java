@@ -1,4 +1,4 @@
-package edu.udec.carrera;
+package main.java.edu.udec.carrera;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 /**
  * Clase que establece las variables de las personas que compiten
  *
- * @author Adriana Patricia Rojas Beltran
+ * @author Santiago Gómez
  */
 public class Persona extends Thread {
 

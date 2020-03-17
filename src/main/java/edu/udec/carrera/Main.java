@@ -1,11 +1,11 @@
-package edu.udec.carrera;
+package main.java.edu.udec.carrera;
 
 
 
 /**
  * Clase main inicializa el programa
  *
- * @author Adriana Patricia Rojas Beltran
+ * @author Santiago Gómez
  */
 public class Main {
     /**

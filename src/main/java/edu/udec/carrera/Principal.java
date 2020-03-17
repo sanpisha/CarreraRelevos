@@ -1,12 +1,12 @@
-package edu.udec.carrera;
+package main.java.edu.udec.carrera;
 
-import edu.udec.carrera.Color;
-import edu.udec.carrera.Persona;
+import main.java.edu.udec.carrera.Color;
+import main.java.edu.udec.carrera.Persona;
 
 /**
  * Clase Principal inicializa hilo y muestra el ganador 
  *
- * @author Adriana Patricia Rojas Beltran
+ * @author Santiago Gómez
  */
 public class Principal {
     Color color;
